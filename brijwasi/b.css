@@ -1,0 +1,357 @@
+
+@import url('http://fonts.cdnfonts.com/css/gotham');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border: navajowhite;
+    text-transform: capitalize;
+   /* transition: all .2s linear;*/
+
+}
+body{
+    background-color: lightgrey;
+    /*background-image: linear-gradient(rgba(0,0,0,0,5),rgba(0,0,0,0,0.3));*/
+ /* background-image: url(images/bg\ black.jpg) ;*/
+   background-repeat: no-repeat;
+  /* -webkit-background-size:cover ;*/
+   background-size: cover;
+   background-color: black;
+
+}
+.a{
+    background-color: #fff;
+    padding: 1%;
+    box-shadow: inset;
+    
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+.a nav ul li{
+font-size: large;
+    color: green;
+    list-style: circle;
+    margin-left: 30px;
+    /* display: inline; */
+
+    /* position: relative;
+    left: 15%; 
+    top: 5%; */
+   /* .a nav ul inputtype{
+        float: right;
+        padding: 6px;
+        border: none;
+        margin-top: 8px;
+        margin-right: 16px;
+        font-size: 17px;
+      }*/
+      
+      .a icons{
+
+      }
+}
+.a img{
+    width: 100px;
+    height: 100px;
+    border-radius:15%;
+    /* position: relative;
+    top: 10%; */
+
+}
+
+/*.container{
+width: 100vw;
+height: 1000vh;
+background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    
+}*/
+.container h1{
+    color:whitesmoke;
+    text-align: center;
+    text-decoration: dotted;
+    font-size: 100px;
+    font-family: 'Gotham', sans-serif;
+}
+.container h2{
+color:greenyellow;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+word-spacing: 10%;
+text-align: center;
+font-size: 30px;
+
+}
+
+.as{
+    display:flex;
+    justify-content: space-between;
+}
+.container img{
+    width: 35%;
+    height: 55%;
+    border-radius: 2%;
+    border-color: 20px solid red;
+
+}
+.container p{
+    color: white;
+    text-align: right;
+    font-size: 46px;
+    margin-top: 150px;
+    line-height: 30px;
+    margin-right: 65px;
+    font-family: 'Gotham 400', sans-serif;;
+}
+.asd{
+    color: greenyellow;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    line-height: 0em;
+    font-weight: 500;
+    text-align: left;
+   /* font-family: dancing system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;*/
+
+}
+.container p2{
+    font-size: 55px;
+    color: rgb(255, 0, 0);
+    font-family:cursive;
+}
+.aq{
+    display: flex;
+    justify-content: space-between;
+   
+    line-height: 1.8em;
+}
+.aq img{
+height:25vh;
+width: 35vw;
+border-radius: 15%;
+border-color:lightgrey;
+}
+.aq p{
+    color: aquamarine;
+    font-size: 35px;
+ 
+    margin-left: 50%;
+}
+.aq1{
+    font-size: 15px;
+
+}
+.aq1 img{
+    height:25vh;
+    width: 35vw;
+    border-radius: 15%;
+    border-color: black;
+    }
+    .aq1{
+        font-size: 35px;
+        margin-right: 45%;
+    }
+    .aq1{ 
+        font-size: 15px;
+    
+    }
+    .aq2 img{
+        height:25vh;
+        width: 35vw;
+        border-radius: 15%;
+        border-color: black;
+        }
+        .aq3 img{
+            height:25vh;
+            width: 35vw;
+            border-radius: 15%;
+            border-color: black;
+            }
+            .hero{
+         display: flex;
+         justify-content: space-between;
+         gap: 25%;
+         align-items: center;
+        }
+        .heroimage img{
+          border-radius: 20%;
+          height: 35vh;
+          width: 25vw;
+        }
+        .herocontent{
+            display: flex;
+            flex-direction: column;
+            color: aquamarine;
+        }
+        .tag{
+            color: goldenrod;
+            padding: 5px 10px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .hero_content p{
+            color:greenyellow;
+            padding: 5px 10px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .hero_content h1{
+            font-size: 62px;
+            color:wheat;
+            padding: 5px 10px;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+        }
+        button{
+            padding: 10px 15px;
+            border: none;
+            transition: 0.2s ease-in-out;
+        }
+        button:hover{
+             opacity: 1.0; 
+             transition: 0.2s ease-in-out;
+
+        }
+        .explore_btn{
+            background: tomato;
+        }
+        .divider{
+            border: 1px solid gray;
+            margin: 20px 0px;
+        }
+        .menu{
+            display: flex;
+            flex-direction: column;
+            gap: 100px;
+            margin: 50px 0;
+            align-items: center;
+        }
+            
+        
+        .menu .tag{
+            align-items: center;
+            color:yellow ;
+            font-size: 56px;
+            text-decoration: underline;
+            font-family: cursive;
+        
+        }
+        .menu .h2{
+          color: azure;
+          text-decoration:solid;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 36px;
+        }
+        .grid-image{
+            border-radius: 10px 10px 10px 10px;
+            transition: 0.2 ease-in-out;
+            width: 100%;
+            height: 70%;
+        }
+        .menu .grid{
+            display: grid;
+            column-gap: 10px;
+        }
+        .item1{
+            grid-row: I1 ;
+            color: aquamarine;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            
+        }
+        .item2{
+            grid-row:I2 ;
+            color: aquamarine;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+        }
+        .item3{
+            grid-row: I3;
+            color: aquamarine;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .item4{
+            grid-row:  I4;
+            color: aquamarine;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .item5{
+            grid-row:I5;
+            color: aquamarine;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .item6{
+            grid-row: I6;
+            color: aquamarine;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .item7{
+            grid-row: I7;
+            color: aquamarine;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        } */
+        /*.grid{
+            display: grid;
+            gap: 50px;
+            grid-template-areas: 
+            "I1 I1 I2 I3"
+            "I1 I1 I2 I7"
+            "I4 I7 I6 I7 ";
+        }*/
+        .grid-image .hover{
+            transform: scale(1.05);
+           
+        }
+        .menu .tag p{
+            font-size: 16px;
+            color: azure;
+            font-family: 'Times New Roman', Times, serif;
+           line-height: 25px;
+        }
+        .footer{
+            margin: 0;
+            padding: 0;
+        }
+        .footer_container{
+            display: flex;
+    justify-content: space-between;
+          background: lightsalmon;
+        }
+        .footer_logo img{
+            height: 50px;
+            width: auto;
+            margin-top: 45%;
+            margin-left: 25%;
+         }
+        .main h3{
+            margin-bottom: 10px;
+            color: gray;
+    
+        }
+        .main ul{
+            display: inline-table;
+            list-style: none;
+            color: chartreuse;
+        }
+        .support h3{
+            margin-bottom: 10px;
+            color: gray;
+    
+        }
+        .support ul{
+            display: inline-table;
+            list-style: none;
+            color: chartreuse;
+        }
+
+
+
